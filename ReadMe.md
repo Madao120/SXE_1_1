@@ -1,14 +1,14 @@
 | Elemento | Lo que dice la documentación | Lo que necesita la VM | Otros | Fuentes de info |
 | :--- | :--- | :--- | :--- | :--- |
-| **S.O.** | Cualquiera mientras tenga los requisitos de S.W. y BD | Ubuntu Server 26.04.1 | Preferible el uso por terminal para no gastar en recursos | \* |
-| **Servidor Web** | Nginx o Apache con el módulo `mod_rewrite` | Apache2 | Se escoge apache debido al soporte de `.htaccess` | \* |
-| **Versión PHP** | Versión 8.3 o superior. | 8.5.4 | **| NGXNB\* |
-| **Gestor de BD** | MariaDB 10.11+ o MySQL 8.0+. | MySQL 8.4.11 | **| \* |
+| **S.O.** | Cualquiera mientras tenga los requisitos de S.W. y BD | Ubuntu Server 26.04.1 | La escogí debido a el uso por terminal para no gastar en recursos | \* |
+| **Servidor Web** | Nginx o Apache con el módulo `mod_rewrite` | Apache2 | Lo escogí debido a que había visto su funcionalidad en años anteriores | \* |
+| **Versión PHP** | Versión 8.3 o superior. | 8.5.4 | Escogí esta version debido a que es la que me indicaba la guía de ubuntu **| NGXNB\* |
+| **Gestor de BD** | MariaDB 10.11+ o MySQL 8.0+. | MySQL 8.4.11 | Escogí esta version debido a que es la que me indicaba la guía de ubuntu **| \* |
 | **Memoria y Disco** | 1GB | 5GB | Debido al SO entre otros programas decidí darle más espacio | [WPBeginner](https://www.wpbeginner.com/es/beginners-guide/important-wordpress-server-requirements-you-should-know/) |
 
 ---
 
-### Notas y Leyendas
+### "Leyenda" de la tabla
 
 * *: [Requisitos Oficiales de WordPress](https://es.wordpress.org/about/requirements/)
 * **: WordPress aún funciona con PHP 7.4+ y MySQL 5.5.5+, pero esas versiones han llegado a su fin de ciclo oficial y podrían exponer tu sitio a vulnerabilidades de seguridad.
